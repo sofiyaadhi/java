@@ -10,7 +10,7 @@ public class pp
 {
     public static void main(String[] args)
     
-    { /*
+    { 
         Scanner scan=new Scanner(System.in); 
         System.out.println("enter first number");
         int Firstnum=scan.nextInt();//for whole numbers 
@@ -19,7 +19,7 @@ public class pp
         System.out.println("my first number is:"+Firstnum + secondnum);
         System.out.println("enter your name");
         String name= scan.next();
-        */
+        
     
        int age=18;
        String isvalid= (age >=18 )?"Driving is allowed " :"Driving is not allowed";
