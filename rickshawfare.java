@@ -34,7 +34,7 @@ public class rickshawfare
         double totalFare = baseFare + (distance * perKm) + (time * perMin);
 
         boolean isLocal = isLocalScan.equals("yes");
-        double discount = (isLocal && distance > 8) ? totalFare * 0.15 : 0;
+        double discount = (isLocal && distance >= 8) ? totalFare * 0.15 : 0;
 
         boolean isNight = isNightScan.equals("yes");
         double nightCharge = isNight ? totalFare * 0.25 : 0;
