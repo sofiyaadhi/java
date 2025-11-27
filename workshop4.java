@@ -2,7 +2,7 @@
 /**
  * Write a description of class workshop4 here.
  *
- * @author (your name)
+ * @author sofiya
  * @version (a version number or a date)
  */
 public class workshop4
@@ -24,7 +24,5 @@ public class workshop4
     {
         System.out.println("Not divisible by both 3 and 5");
      }
-    
-    
     }
 }
